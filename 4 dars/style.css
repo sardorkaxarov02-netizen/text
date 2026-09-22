@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.cart img{
+    width: 99%;
+    height: 10%;
+}
+.cart{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 17%;
+}
+.cart h1 {
+    color: black;
+}
+.cart h3{
+    color: black    ;
+}
