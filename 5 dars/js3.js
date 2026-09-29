@@ -27,12 +27,12 @@ const arr = [
 
 console.log(arr)
 
-input.oninput = (e) => {
-  console.log(arr)
-    arr.push({id:2, name:"madina"})
-    console.log(e.target.value)
-  title.textContent = e.target.value
-}
+// input.oninput = (e) => {
+//   console.log(arr)
+//       arr.push({id:2, name:"madina"})
+//     console.log(e.target.value)
+//   title.textContent = e.target.value
+// }
 btn.onclick = () => {
   console.log(arr)
   arr.push({id:2, name:"madina"})
